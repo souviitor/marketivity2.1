@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "urw geometric";
+  font-family: "urw geometric", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -276,6 +276,13 @@ section {
 
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    color: #ccc;
+    margin-top: 40px;
+}
+
 @media (max-width: 667px) {
   header nav {
     display: none;
@@ -283,6 +290,7 @@ section {
 
   .container {
     max-width: 90%;
+    width: 100%;
   }
 
   /* HOME */
@@ -343,7 +351,7 @@ section {
 
   #about .cases .casesbtn {
     width: 100%;
-    margin-left: 170px;
+    margin-left: 150px;
   }
 
   #about .cases button a{
@@ -368,7 +376,7 @@ section {
     text-align: center;
     width: 180%;
     font-size: 30px;
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   /* AVISOS */
