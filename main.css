@@ -281,6 +281,7 @@ footer{
     justify-content: center;
     color: #ccc;
     margin-top: 40px;
+    padding: 10px;
 }
 
 @media (max-width: 667px) {
